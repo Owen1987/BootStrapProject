@@ -1,0 +1,37 @@
+第一步：响应式导航
+第二步：home区域
+第三步：bbs论坛区域
+第四步：html5区域
+第五步：bootstrap区域
+第六步：course区域
+第七步：app区域
+第八步：contact区域
+第九步：footer区域
+第十步：满意的效果插件
+	1.jquery.singlePageNav.min.js
+		单页面导航插件
+		方法
+			.singlePageNav();
+			offset
+				向上偏移量
+				offset:70
+	2.wow.min.js
+		引入animate动画集CSS插件
+			animate.css
+		使用
+			javascript
+				new WOW().init();
+			使用对象添加class="wow + animate"
+		可用属性
+			data-wow-duration（动画持续时间）
+				data-wow-duration="2s"
+			data-wow-delay（动画延迟时间）
+				data-wow-delay="5s"
+			data-wow-offset（偏移量）
+				data-wow-offset="10"
+					距离可视区域多远开始执行动画
+			data-wow-iteration="10"(重复次数)
+				data-wow-iteration="10"
+	3.animate.css
+		使用方法
+			http://daneden.github.io/animate.css/
